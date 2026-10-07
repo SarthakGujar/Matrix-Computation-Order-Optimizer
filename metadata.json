@@ -1,0 +1,6 @@
+{
+  "name": "Matrix Chain Multiplication Solver",
+  "description": "Calculate the optimal parenthesization order and minimum scalar operations for matrix chain multiplication using Dynamic Programming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

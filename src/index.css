@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #2A2421;
+    background-color: #F8F4EC;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #F8F4EC;
+    color: #2A2421;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Cream-themed custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFE9DC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C8BEAC;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #781628;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
